@@ -1,0 +1,130 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav {
+    background-color: black;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+
+h2 {
+    color: navy;
+}
+
+
+img {
+    border-radius: 50%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightblue;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    aside {
+        width: auto;
+    }
+}
